@@ -1,0 +1,14 @@
+/*background wallpaper*/
+/* body {
+            background-image: url("../images/pexels-photo-1229042.png");
+
+        } */
+/*Greenbox with instructions*/
+div {
+background-color: lightgray;
+width: 300px;
+border: 10px solid green;
+padding: 25px;
+ margin: 25px;
+            }
+
