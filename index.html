@@ -2,37 +2,88 @@
 <html lang="en">
 
 <head>
-
-<body>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Crystal Collection</title>
+</head>
 
-    <title>Psychic-Game</title>
+<body>
+    <!-- TODO: choose a cool theme -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h2 class="display-4">Crystal Collection</h2>
+            <p class="lead">At the start of the game, the target number will be displayed. There are four crystals. By
+                clicking on a crystal, you will add a specific number of points to your total score. You win the game by
+                matching your total to the target number. You lose the game if your total score goes above the target
+                number. The value of each crystal is hidden from you until you click on it. Each time when the game
+                starts, the game will change the target value and the value of each crystal. </p>
+            <h5>
+                <p>Press any crystal to get started!</p>
+            </h5>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+            <h5 class="card-title">Wins:</h5>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Losses:</h5>
+
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+            <h5 class="card-title">Your total score is:
+            </h5>
+
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+            <h5 class="card-title">Target Number:</h5>
+
+        </div>
 
 
-    <h1>Crystal Collector!</h1>
-    <style>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Your Score:</h5>
 
-    </style>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum sint sed sit laboriosam fugiat numquam
-        similique voluptates, amet nemo eveniet officiis ratione illum ea placeat, magnam, consectetur quaerat.
-        Dolorem,
-        porro?</div>
 
-    <!--create four crystal displays as buttons on the page.-->
-    <!--Each crystal have random numbers between 19-120-->
-    <!--Each crystal should have a random hidden value between 1-12-->
-    <!--creat clicks on a crystal to add points-->
-    <!--create score counter-->
-    <!--create code to restart the game-->
+            </div>
 
 
 
-    <script src="assets/javascript/game.js"></script>
 
-    </head>
+
+
+</body>
+
+</html>
+
+<!--create four crystal displays as buttons on the page.-->
+<!--Each crystal have random numbers between 19-120-->
+<!--Each crystal should have a random hidden value between 1-12-->
+<!--creat clicks on a crystal to add points-->
+<!--create score counter-->
+<!--create code to restart the game-->
+
+
+
+<script src="assets/javascript/game.js"></script>
+
+</head>
 </body>
 
 </html>
