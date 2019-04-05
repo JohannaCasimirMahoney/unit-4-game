@@ -4,13 +4,17 @@
 //TODO: Track Number Of Wins
 //TODO: Track Number Of Losses
 //TODO: Choose A Target Number
-//TODO: Your Total Score
-//TODO: Item 1 needs a radom number 
-//TODO: Item 2 needs a radom number 
-//TODO: Item 3 needs a radom number 
-//TODO: Item 4 needs a radom number 
+//TODO: Your Total Score Is
+
+//TODO: Each Item needs a radom hidden number between 1-20
+
+//TODO: Add Item 1 needs a radom number 
+//TODO: Add Item 2 needs a radom number 
+//TODO: Add Item 3 needs a radom number 
+//TODO: Add Item 4 needs a radom number 
 
 //TODO: Use key events for numbers that players press
+//TODO: Add clicks to each item to add points to user score
 
 //TODO: Check if users won
 //TODO: Check if user lost
