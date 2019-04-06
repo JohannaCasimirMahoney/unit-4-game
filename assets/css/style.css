@@ -2,9 +2,22 @@ body {
 font-family: 'Kaushan Script', cursive;
 font-family: 'Special Elite', cursive;
 
-background-color: black
+background-color: lightblue;
+
 }
 
+#debug{
+    color: white;
+}
+#wins{
+    color: white;
+}
+#losses{
+    color: white;
+}
+#score{
+    color: white;
+}
 
 
 

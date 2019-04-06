@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
     <title>Chess Collection</title>
@@ -28,39 +30,31 @@
                 number. The value of each chess piece is hidden from you until you click on it. Each time when the game
                 starts, the game will change the target value and the value of each chess piece. </p>
             <h5>
+                <br />
                 <p>Press any chess piece to get started!</p>
+
             </h5>
         </div>
     </div>
 
 
     <div class="card-body">
-        Target Number:<span id="targetNumber"></span></p>
+        <span id="targetNumber">Target Number:</span>
 
     </div>
 
-    <img src="./assets/images/chess-king.png">
-    <img src="./assets/images/chess-queen.png">
-    <img src="./assets/images/chess-bishop.png">
-    <img src="./assets/images/chess-knight.png">
-
-    <script>
-        document.body.addEventListener("click", event => {
-            if (event.target.nodeName == "BUTTON") {
-                console.log("Clicked", event.target.textContent);
-            }
-        });
+    <img id="king" src="./assets/images/chess-king.png">
+    <img id="queen" src="./assets/images/chess-queen.png">
+    <img id="bishop" src="./assets/images/chess-bishop.png">
+    <img id="knight" src="./assets/images/chess-knight.png">
 
 
-    </script>
 
-    <!-- <button onclick="myFunction()"></button>
-     </button> -->
-
+    <div id="debug"></div>
 
 
     <div class="card-body">
-        <p class="card-text">Wins:<span id="wins"></span></p>
+        <p class="card-text"><span id="wins">Wins:</span></p>
     </div>
     </div>
 
@@ -73,7 +67,7 @@
 
 
     <div class="card-body">
-        Your Total Score Is:<span id="YourTotalScoreIs"></span></p>
+        Your Total Score Is:<span id="score"></span></p>
 
     </div>
     </div>
@@ -81,7 +75,16 @@
 
     <script src="assets/javascript/game.js"></script>
 
-    </head>
+    <script>
+        document.body.addEventListener("click", event => {
+            if (event.target.nodeName == "BUTTON") {
+                console.log("Clicked", event.target.textContent);
+            }
+        });
+
+
+    </script>
+
 </body>
 
 </html>
