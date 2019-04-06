@@ -2,7 +2,7 @@ body {
 font-family: 'Kaushan Script', cursive;
 font-family: 'Special Elite', cursive;
 
-background-color: lightblue;
+background-color: black;
 
 }
 
@@ -18,6 +18,11 @@ background-color: lightblue;
 #score{
     color: white;
 }
+
+#targetNumber{
+    color: white;
+}
+
 
 
 
