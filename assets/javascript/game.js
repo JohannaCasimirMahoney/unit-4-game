@@ -14,7 +14,7 @@ var bishop = 0;
 var knight = 0;
 
 function settarget() {
-    targetNumber = Math.floor(Math.random() * 40) + 1;
+    targetNumber = Math.floor(Math.random() * 30) + 1;
 }
 
 
@@ -24,7 +24,7 @@ function startgame() {
 
     //Add random numbers for each chess pieces
     king = Math.floor(Math.random() * 20) + 1;
-    queen = Math.floor(Math.random() * 15) + 1;
+    queen = Math.floor(Math.random() * 10) + 1;
     bishop = Math.floor(Math.random() * 10) + 1;
     knight = Math.floor(Math.random() * 5) + 1;
 
@@ -76,10 +76,6 @@ $(document).ready(function () {
 
 //TODO: Check if users won
 //TODO: Check if user lost
-
-
-
-
 
 //TODO: Prompt message after user looses game
 
