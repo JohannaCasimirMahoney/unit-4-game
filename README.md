@@ -1,1 +1,2 @@
-# unit-4-game
+At the start of the game, the target number will be displayed. There are four chess pieces.
+By clicking on a chess piece, you will add a specific number of points to your total score. You win the game by matching your total to the target number. You lose the game if your total score goes above the target number. The value of each chess piece is hidden from you until you click on it. Each time when the game starts, the game will change the target value and the value of each chess piece.
