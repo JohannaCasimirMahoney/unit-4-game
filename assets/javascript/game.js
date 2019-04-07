@@ -40,6 +40,21 @@ function startgame() {
     $("#targetNumber").text("Target Number: " + targetNumber.toString());
 
 }
+//wins
+function youWin() {
+    wins++;
+    $("#wins").html("Wins: " + wins);
+    alert("Awsome! ");
+    newGame();
+}
+
+//losses
+function youLose() {
+    losses++;
+    $("#losses").html("Losses: " + losses);
+    alert("Better Luck Next Time");
+    newGame();
+};
 
 
 $(document).ready(function () {
@@ -54,6 +69,13 @@ $(document).ready(function () {
         score += king;
         $("#score").text("Score: " + score.toString());
 
+        if (score == targetNumber) {
+            youWin();
+        }
+        if (score > targetNumber) {
+            youLose();
+        }
+
     });
 
     $("#queen").click(function () {
@@ -61,6 +83,14 @@ $(document).ready(function () {
         $("#debug").text("You Choose The Queen");
         score += queen;
         $("#score").text("Score: " + score.toString());
+
+        if (score == targetNumber) {
+            youWin();
+        }
+        if (score > targetNumber) {
+            youLose();
+        }
+
 
 
     });
@@ -70,6 +100,14 @@ $(document).ready(function () {
         score += bishop;
         $("#score").text("Score: " + score.toString());
 
+        if (score == targetNumber) {
+            youWin();
+        }
+        if (score > targetNumber) {
+            youLose();
+        }
+
+
 
     });
     $("#knight").click(function () {
@@ -78,16 +116,19 @@ $(document).ready(function () {
         score += knight;
         $("#score").text("Score: " + score.toString());
 
+        if (score == targetNumber) {
+            youWin();
+        }
+        if (score > targetNumber) {
+            youLose();
+        }
     });
+
 });
 
-//Restart the Game
-
-
+// Start & Reset Game
 
 //TODO: Check if users won
 //TODO: Check if user lost
-
-//TODO: Prompt message after user looses game
 
 //TODO: Restart the Game
