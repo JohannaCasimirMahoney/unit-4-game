@@ -8,10 +8,10 @@ This is how the game works. At the start of the game, the target number will be 
 The way you win the game is by matching your total to the target number. The way you lose the game is if your total score goes above the target number. The value of each chess piece is hidden from you until you click on it. Each time when the game starts, the game will change the target value and the value of each chess piece. The application should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
 <h1>Techology Used</h1>
-*HTML
-*CSS
-*Javascript
-*Reset
+* HTML
+* CSS
+* Javascript
+* Reset
 
 <a href="https://johannacasimirmahoney.github.io/unit-4-game/">Chess Piece Game</a>
 
