@@ -9,13 +9,16 @@ The way you win the game is by matching your total to the target number. The way
 
 <h1>Techology Used</h1>
 * HTML
+
 * CSS
+
 * Javascript
+
 * Reset
 
 <a href="https://johannacasimirmahoney.github.io/unit-4-game/">Chess Piece Game</a>
 
-<a href="https://github.com/JohannaCasimirMahoney/unit-4-game" target="blank">Get Code Here</a>
+<a href="https://github.com/JohannaCasimirMahoney/unit-4-game" target="_blank">Get Code Here</a>
 
 
 
