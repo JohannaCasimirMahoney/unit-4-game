@@ -17,6 +17,11 @@ function settarget() {
     targetNumber = Math.floor(Math.random() * 30) + 1;
 }
 
+function reset() {
+    targetNumber = 0;
+    score = 0;
+}
+reset();
 
 function startgame() {
     settarget();
@@ -44,6 +49,8 @@ function youWin() {
     wins++;
     $("#wins").html("Wins: " + wins);
     alert("Awsome! ");
+    reset();
+    startgame()
 
 }
 
@@ -52,6 +59,8 @@ function youLose() {
     losses++;
     $("#losses").html("Losses: " + losses);
     alert("Better Luck Next Time");
+    reset();
+    startgame()
 
 
 };
@@ -123,6 +132,7 @@ $(document).ready(function () {
         }
 
     });
+
 
 });
 
