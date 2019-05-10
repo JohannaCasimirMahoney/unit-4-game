@@ -23,9 +23,6 @@ The way you win the game is by matching your total to the target number. The way
 
 
 
-<a href="https://johannacasimirmahoney.github.io/unit-4-game/" rel="noopener noreferrer" target="_blank">Chess Piece Game</a>
-
-
 
 
 
