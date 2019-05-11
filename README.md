@@ -17,7 +17,7 @@ The way you win the game is by matching your total to the target number. The way
 
 * Javascript
 
-*JQuery
+* JQuery
 
 * Reset
 
