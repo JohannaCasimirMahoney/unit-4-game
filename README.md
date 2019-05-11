@@ -1,4 +1,6 @@
-### Chess Piece Game
+# Chess Piece Game
+
+### Overview
 In this assignment, I create a fun and interactive game for web browsers. This interactive game updates the HTML pages with jQuery library.
 
 The object of the game is to get the user to click on each chess piece that will generate a random number. Each number generated will add a vaule to the "Score" allowing the user to match the "Taget Number".
